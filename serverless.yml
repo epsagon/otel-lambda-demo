@@ -1,0 +1,11 @@
+service: otel-lambda-demo
+frameworkVersion: '3'
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: '<your-region>'
+  environment:
+    NODE_OPTIONS: --require lambda-wrapper
+functions:
+  lambda-otel-test:
+    handler: handler.hello

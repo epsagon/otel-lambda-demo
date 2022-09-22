@@ -1,0 +1,20 @@
+{
+  "name": "aws-lambda-otel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambda-wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.1.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.30.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.28.0",
+    "@opentelemetry/instrumentation": "^0.28.0",
+    "@opentelemetry/sdk-trace-base": "^1.2.0",
+    "@opentelemetry/sdk-trace-node": "^1.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
